@@ -27,15 +27,17 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  host: db
-  username: postgres
-  password: 1qaz2wsx
+  host: ec2-34-193-112-164.compute-1.amazonaws.com #localhost db
+  username: konqpkyzgoxdxq #postgres
+  password: d9a5dff7e9347271658eb7970b150137742adaa0235171982f4cb9ccd13389af #1qaz2wsx
+  database: d5ssnhk8cbn8tv
+  port: 5432 #5433
   pool: 5
 
 development:
   <<: *default
-  database: neo_surveys_development
+  database: d5ssnhk8cbn8tv #neo_surveys_development
 
 test:
   <<: *default
-  database: neo_surveys_test
+  database: d5ssnhk8cbn8tv #neo_surveys_test
