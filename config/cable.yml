@@ -7,4 +7,4 @@ test:
 production:
   adapter: redis
   url: <%= ENV.fetch("REDIS_URL") { "redis://localhost:6379/1" } %>
-  channel_prefix: neo_surveys_production
+  channel_prefix: d5ssnhk8cbn8tv #neo_surveys_production
