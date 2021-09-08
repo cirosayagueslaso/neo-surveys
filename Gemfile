@@ -21,6 +21,7 @@ gem 'devise', '~> 4.8.0'
 gem 'sassc-rails', '~> 2.1.2'
 gem 'dotenv-rails', '~> 2.7.6'
 gem 'devise_token_auth', '~> 1.2.0'
+gem 'redis', '~> 4.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
