@@ -1,0 +1,114 @@
+es:
+  errors:
+    messages:
+      expired: "ha expirado, por favor pide una nueva"
+      not_found: "no encontrado"
+      already_confirmed: "ya fue confirmada. Intenta ingresar."
+      not_locked: "no ha sido bloqueada"
+      not_saved:
+        one: "Ha habido 1 error:"
+        other: "Han habido %{count} errores:"
+  devise:
+    change: Cambiar Contraseña
+    time:
+      am: am
+      formats:
+        default: "%A, %-d de %B de %Y %H:%M:%S %z"
+        long: "%d/%m/%Y %H:%M"
+        short: "%-d de %b %H:%M"
+      pm: pm
+    failure:
+      already_authenticated: 'Ya iniciaste sesión.'
+      unauthenticated: 'Tienes que registrarte o iniciar sesión antes de continuar.'
+      unconfirmed: 'Tienes que confirmar tu cuenta antes de continuar.'
+      locked: 'Tu cuenta está bloqueada.'
+      invalid: 'Email o contraseña inválidos.'
+      invalid_token: 'Token de autentificación inválido.'
+      timeout: 'Tu sesión ha expirado. Inicia sesión nuevamente.'
+      inactive: 'Tu cuenta aun no ha sido activada.'
+      user:
+        not_found_in_database: 'Verifique su email'
+    sessions:
+      new:
+        sign_in_the_platform: Ingresa a la Plataforma
+        get_registred: No tengo una cuenta
+        recover_password: Recuperar contraseña
+        password: "Contraseña"
+        sign_in: Ingresar
+      signed_in: 'Iniciaste sesión correctamente.'
+      signed_out: 'Cerraste sesión correctamente.'
+    passwords:
+      edit:
+        new: Nueva Contraseña
+        change: Cambiar Contraseña
+        sign_up: Registrarme
+        sign_in: Inicio
+        password_confirmation: Confirmar Contraseña
+      new:
+        sign_up: Registrarme
+        sign_in: Inicio
+        instructions: Enviarme instrucciones de cambio
+      send_instructions: 'Recibirás un email con instrucciones para reiniciar tu contraseña en unos minutos.'
+      updated: 'Tu contraseña fue cambiada correctamente. Has iniciado sesión.'
+      updated_not_active: 'Tu contraseña fue cambiada correctamente.'
+      send_paranoid_instructions: "Si tu email existe en el sistema, recibirás instrucciones para recuperar tu contraseña en él"
+    confirmations:
+      send_instructions: 'Recibirás instrucciones para confirmar tu cuenta en tu email en unos minutos.'
+      send_paranoid_instructions: 'Si tu email existe en el sistema, recibirás instrucciones para confirmar tu cuenta en tu email en unos minutos.'
+      confirmed: 'Tu cuenta fue confirmada. Has iniciado sesión.'
+    registrations:
+      new:
+        name: Nombre
+        optional: Teléfono (opcional)
+        terms_and_conditions: Al registrarte aceptas los <a><u>Términos y condiciones</u></a> y nuestra <a><u>Política de privacidad</a></u>
+        advertisment: Registrate para contratar servicios
+        password: Contraseña
+        sign_up: Registrarme
+        minimum_pass: Mínimo 8 caracteres
+        already_registred: ya tengo una cuenta
+      edit:
+        name: Nombre
+        telephone: teléfono
+        update: Actualizar
+        password: Contraseña
+        current_password: Contraseña actual
+        need_to_confirm: (Necesario para actualizar)
+        minimum_pass: Mínimo 8 caracteres
+        password_confirmation: Confirmar Contraseña
+        optional: (Si no desea cambiar, no complete)
+      signed_up: 'Bienvenido! Te has registrado correctamente.'
+      signed_up_but_unconfirmed: 'Te hemos enviado un email con instrucciones para que confirmes tu cuenta.'
+      signed_up_but_inactive: 'Te has registrado correctamente, pero tu cuenta aun no ha sido activada.'
+      signed_up_but_locked: 'Te has registrado correctamente, pero tu cuenta está bloqueada.'
+      updated: 'Actualizaste tu cuenta correctamente.'
+      update_needs_confirmation: "Actualizaste tu cuenta correctamente, pero tenemos que revalidar tu email. Revisa tu correo para confirmar la dirección."
+      destroyed: 'Adiós, tu cuenta ha sido eliminada. Esperamos verte de vuelta pronto!'
+    unlocks:
+      send_instructions: 'Recibirás un email con instrucciones para desbloquear tu cuenta en unos minutos'
+      unlocked: 'Tu cuenta ha sido desbloqueada. Inicia sesión para continuar.'
+      send_paranoid_instructions: 'Si tu cuenta existe, recibirás instrucciones para desbloquear tu cuenta en unos minutos'
+    omniauth_callbacks:
+      success: 'Te autentificaste correctamente con tu cuenta de %{kind}.'
+      failure: 'No pudimos autentificar tu cuenta de %{kind} por la siguiente razón: %{reason}.'
+    mailer:
+      email_changed:
+        hello: Hola
+        email_changed: Le estamos contactando para notificarle que su email ha sido cambiado a
+      password_change:
+        hello: Hola
+        email_changed: Le estamos contactando para notificarle que su email ha sido cambiado a
+      reset_password_instructions:
+        hello: Hola!
+        change_pass: Alguien pidió un link para cambiar su Contraseña
+        change: Cambiar Contraseña
+        path: Puede hacerlo mediante el link debajo
+        mistake: si no pidió esto, ignore este email
+        wait_until_usr_action: Su contraseña no cambiará hasta que accese al link de arriba y se cree una nueva.
+        subject: 'Instrucciones de cambio de contraseña'
+      confirmation_instructions:
+        subject: 'Instrucciones de confirmación'
+        welcome: Bienvenido
+        confirmation: Puede confirmar su cuenta mediante el link debajo
+        account_confirmation: Confirmar mi cuenta
+      unlock_instructions:
+        subject: 'Instrucciones de desbloqueo'
